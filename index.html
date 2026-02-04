@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chemie-Simulationen</title>
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;margin:24px}
+    h1{margin:0 0 12px 0}
+    .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));max-width:900px}
+    a.card{display:block;padding:16px;border:1px solid #ddd;border-radius:14px;text-decoration:none;color:inherit}
+    a.card:hover{border-color:#999}
+    .small{color:#555;font-size:0.95rem;margin-top:6px}
+  </style>
+</head>
+<body>
+  <h1>Chemie-Simulationen</h1>
+  <p class="small">Bitte eine Simulation auswählen:</p>
+
+  <div class="grid">
+    <a class="card" href="./salze/">
+      <strong>Salze identifizieren</strong>
+      <div class="small">Flammenprobe + Nachweisreaktionen</div>
+    </a>
+
+    <a class="card" href="./flammenprobe/">
+      <strong>Flammenprobe</strong>
+      <div class="small">Farben zuordnen und auswerten</div>
+    </a>
+  </div>
+</body>
+</html>
